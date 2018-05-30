@@ -1,91 +1,121 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Cancer Donations</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="index.js">
-</script>
-  <style>
-  body {
-      position: relative;
-  }
-  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
-  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
-  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
-  #section43 {padding-top:50px;height:500px;color: #fff; background-color: #73F6F6;}
-  #section44 {padding-top:50px;height:500px;color: #fff; background-color: #4ef442;}
-  </style>
-</head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC" rel="stylesheet">
+    <link href="css/finalproject.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <title>A Sarah Site - Plain Jane Shoes</title>
+  </head>
+  <body>
+<div class="navbar-fixed">
+    <nav class="white teal lighten-3" role="navigation">
+      <div class="nav-wrapper container">
+       <img class="responsive-img" src="Sarahplainjanelogo.png">
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Cancer Donations</a>
-    </div>
-    <div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="https://www.cancer.gov/types">Types</a></li>
-          <li><a href="https://www.cancer.net/navigating-cancer-care/diagnosing-cancer/stages-cancer">Stages</a></li>
-          <li><a href="http://www.cancerresearch.org/">References</a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="bryanswebsite.html">Bryan</a></li>
-              <li><a href="sarahswebsite.html">Sarah</a></li>
-              <li><a href="enter-personal-websiteURLS">Ozzy</a></li>
-            </ul>
-          </li>
+         <ul class="right hide-on-med-and-down">
+          <li><a class="indigo-text text-darken-4" href="#">About Author</a></li>
+          <li><a class="white-text text-darken-4" href="#">Contact-Us</a></li>
+          <li><a data-target="modal1"class=" modal-trigger yellow-text text-darken-4" href="#">NewsLetter SignUp</a></li>
         </ul>
-         <ul class="nav navbar-nav navbar-right">
-           <a href="donation.html" button class="btn btn-danger navbar-btn">Donate Here</a></button>
-         </ul>
-  </div>
+</div>
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="#">Navbar Link</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       </div>
+    </nav>
+    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+                            
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
     </div>
   </div>
-</nav>
 
-<div id="section1" class="container-fluid">
-  <h1>Types Of Cancer</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget dictum ex, malesuada sollicitudin odio. Donec vel lorem venenatis, aliquam lectus sed, gravida lectus. Proin aliquam lacinia est nec mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a nisi imperdiet, varius tellus eu, feugiat nibh. Sed vulputate volutpat nulla vel volutpat. Sed nulla est, faucibus et finibus eget, vulputate consectetur velit. Sed tristique auctor ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-</div>
-<div id="section2" class="container-fluid">
-  <h1>Stages Of Cancer</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget dictum ex, malesuada sollicitudin odio. Donec vel lorem venenatis, aliquam lectus sed, gravida lectus. Proin aliquam lacinia est nec mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a nisi imperdiet, varius tellus eu, feugiat nibh. Sed vulputate volutpat nulla vel volutpat. Sed nulla est, faucibus et finibus eget, vulputate consectetur velit. Sed tristique auctor ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-</div>
-<div id="section3" class="container-fluid">
-  <h1>References To Cancer Research</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget dictum ex, malesuada sollicitudin odio. Donec vel lorem venenatis, aliquam lectus sed, gravida lectus. Proin aliquam lacinia est nec mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a nisi imperdiet, varius tellus eu, feugiat nibh. Sed vulputate volutpat nulla vel volutpat. Sed nulla est, faucibus et finibus eget, vulputate consectetur velit. Sed tristique auctor ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-</div>
-<div id="section41" class="container-fluid">
-  <h1>Bryan</h1>
-  <p>My name is Bryan and I'm in the process of learning how to code. I'm working my way to someday work in the software development industry. Up until now I've worked for myself and other small businesses to learn as much as I can about every aspect of every industry that I possibly can. I take that same initiative in everything that I do so that I can produce the highest quality results possible.</p>
-</div>
-<div id="section42" class="container-fluid">
-  <h1>Sarah</h1>
-  <p>Sarah is my English name, but my native name is Oluwadoyinsola.
-  Yes, you guessed right. Im from Nigeria
-  I am a Systems Analyst (more Businessy/SQL-elly)</p>
-</div>
-  <div id="section43" class="container-fluid">
-  <h1>Ozzy</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet risus vel scelerisque convallis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi cursus volutpat eros vel sollicitudin. Nulla ut massa enim. Etiam condimentum, elit vitae semper ornare, tortor massa ultricies arcu, nec ornare libero neque in nulla. Ut non dui vitae eros consequat ullamcorper id ut elit. Pellentesque auctor accumsan ultrices. Donec varius dapibus odio, ut pretium risus pretium sed. Nam ac lectus id nulla tristique porta. Suspendisse ut quam mi. Integer condimentum tortor lacus, id sodales sem luctus ac. Pellentesque dignissim neque sit amet sagittis feugiat. Integer dictum, justo a sagittis sollicitudin, tortor libero tincidunt lacus, sit amet pellentesque ligula erat rhoncus lorem.</p>
-  </div>
-  <div id="section44" class="container-fluid">
-  <h1>A Final Message</h1>
-  <button onclick="myFunction()">A Message From the Authors</button>
-  </div>
-</body>
+    <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <br><br>
+          <img class="responsive-img one" src="background.jpg" style="width:100%;">
+          <h1 class="header center teal-text text-lighten-2">Plain Jane Shoes</h1>
+          <ul class="collection">
+      <li class="collection-item avatar">
+        <img src="columnistone.jpg" alt="" class="circle">
+        <span class="title"><b>Shopping at SIX PM. Why Six pm is the best decision you ever made</b></span>
+        <p><b>Written by:</b> Rita Ora <br>
+           <b>Date:</b> 5/27/2018
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+      <li class="collection-item avatar">
+        <img src="columnisttwo.jpg" alt="" class="circle">
+        <span class="title"><b>Whats a good buy? We mean a good shoe buy</b></span>
+        <p><b>Written by:</b> Sarah Folorunsho<br>
+           <b>Date:</b> 5/20/2018
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+      <li class="collection-item avatar">
+        <img src="columnistthree.jpg" alt="" class="circle">
+        <span class="title"><b>Yes you can afford Louboutins. Lets tell you how</b></span>
+        <p><b>Written by:</b> A Joker<br>
+            <b>Date:</b> 5/13/2018
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+      <li class="collection-item avatar">
+        <img src="columnistfour.jpg" alt="" class="circle">
+        <span class="title"><b>Six p.m Luxury you can actually afford</b></span>
+        <p><b>Written by:</b> Donatela Versace<br>
+           <b>Date:</b>5/06/2018
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+    </ul>
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Company Bio</h5>
+            <p class="grey-text text-lighten-4">Blah Blah Blah sheep</p>
+
+
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Settings</h5>
+            <ul>
+              <li><a class="white-text" href="#!">User Prefrence/a></li>
+              <li><a class="white-text" href="#!">Sign Up</a></li>
+            </ul>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <li><a class="white-text" href="#!">Facebook</a></li>
+              <li><a class="white-text" href="#!">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        </div>
+      </div>
+    </footer>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+  </body>
 </html>
